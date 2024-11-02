@@ -18,6 +18,8 @@ source devel/setup.bash
 roslaunch aruco_tf detect_aruco.launch
 ```
 
+You can use this [website](https://chev.me/arucogen/) to create a ArUco marker.
+
 ## Result
 
 The package will detect the ArUco marker and publish the pose of the marker to the tf tree.
