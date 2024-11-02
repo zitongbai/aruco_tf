@@ -18,6 +18,9 @@ source devel/setup.bash
 roslaunch aruco_tf detect_aruco.launch
 ```
 
+## Result
 
+The package will detect the ArUco marker and publish the pose of the marker to the tf tree.
 
+https://www.bilibili.com/video/BV186p6e7E9p
 
