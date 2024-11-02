@@ -1,0 +1,9 @@
+<launch>
+
+    <node name="cam" pkg="aruco_tf" type="cam.py" output="screen" respawn="false"/>
+    <node name="detect" pkg="aruco_tf" type="detect.py" output="screen" respawn="false"/>
+    
+    <!-- load a rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find aruco_tf)/rviz/aruco_tf.rviz" output="screen" respawn="false"/>
+
+</launch>
